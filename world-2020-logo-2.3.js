@@ -825,13 +825,13 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	this.instance.setTransform(1035.45,335.8);
 	this.instance.alpha = 0;
 	this.instance._off = true;
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(10).to({_off:false},0).wait(27).to({alpha:1},7).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(32).to({_off:false},0).wait(27).to({alpha:1},7).wait(1));
 	// Wheel_Final
 	this.instance_1 = new lib.wheellarge01groupedsplitlayerai("synched",0);
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(1070.55,391.55,2.0867,2.0867,98.999,0,0,735.8,735.8);
 	this.instance_1._off = true;
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(10).to({_off:false},0).to({scaleX:2.2085,scaleY:2.2085,rotation:199.9991,x:1003.05,y:393.8,startPosition:6},8).to({regX:735.7,scaleX:0.9941,scaleY:0.9941,rotation:279.7781,x:951,y:396.4,startPosition:13},6).to({regX:735.8,regY:736,scaleX:0.6289,scaleY:0.6289,rotation:291.9997,x:900.45,y:400.45,startPosition:24},5).to({regX:736,scaleX:0.5294,scaleY:0.5294,rotation:340.9729,x:859.2,y:403.65,startPosition:61},15).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(32).to({_off:false},0).to({scaleX:2.2085,scaleY:2.2085,rotation:199.9991,x:1003.05,y:393.8,startPosition:6},8).to({regX:735.7,scaleX:0.9941,scaleY:0.9941,rotation:279.7781,x:951,y:396.4,startPosition:13},6).to({regX:735.8,regY:736,scaleX:0.6289,scaleY:0.6289,rotation:291.9997,x:900.45,y:400.45,startPosition:24},5).to({regX:736,scaleX:0.5294,scaleY:0.5294,rotation:340.9729,x:859.2,y:403.65,startPosition:61},15).wait(1));
 	// BG_Black
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f().s("#000000").ss(1,1,1).p("Ein2hddMFPtAAAMAAAC67MlPtAAAg");
@@ -839,7 +839,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	this.shape_1 = new cjs.Shape();
 	this.shape_1.graphics.f("#000000").s().p("Ein2BdeMAAAi66MFPtAAAMAAAC66g");
 	this.shape_1.setTransform(1030.275,405.15);
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).to({state:[{t:this.shape_1},{t:this.shape}]},10).to({state:[{t:this.shape_1},{t:this.shape}]},34).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).to({state:[{t:this.shape_1},{t:this.shape}]},32).to({state:[{t:this.shape_1},{t:this.shape}]},34).wait(1));
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(985,129.6,1120.6,911.6999999999999);
 // library properties:

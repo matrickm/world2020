@@ -1,5 +1,5 @@
 (function (cjs, an) {
-var p; // shortcut to reference prototypes
+var p; // shortcut to reference prototypesss
 var lib={};var ss={};var img={};
 lib.ssMetadata = [];
 // symbols:

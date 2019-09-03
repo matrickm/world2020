@@ -849,7 +849,7 @@ lib.properties = {
 	color: "#FFFF33",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/worldlogonowheel2.png", id:"worldlogonowheel2"}
+		{src:"https://custom.cvent.com/83AD54AE0B7F4CBC94A9A945D0A278DA/pix/f2d3dfbeace94c92aecbcef6162e05e5.png", id:"worldlogonowheel2"}
 	],
 	preloads: []
 };

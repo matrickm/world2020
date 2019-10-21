@@ -748,8 +748,7 @@ p.nominalBounds = new cjs.Rectangle(-140.1,-17.2,280.2,36.7);
 	this.shape_22.setTransform(653.575,385.925);
 	this.instance = new lib.Register_Button();
 	this.instance.parent = this;
-	this.instance.setTransform(826.75,358.85,1.21,1.21,0,0,0,0.1,11.9);
-	new cjs.ButtonHelper(this.instance, 0, 1, 1);
+	this.instance.setTransform(826.75,358.95,1.21,1.21,0,0,0,0.1,12);
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(602));
 	// Big_Text
 	this.instance_1 = new lib.ctabig01();
